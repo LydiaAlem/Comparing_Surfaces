@@ -59,6 +59,13 @@ When creating the 3D graphs, these were the following packages that were utilize
 
 <img width="376" alt="Screenshot 2023-02-18 at 8 12 38 PM" src="https://user-images.githubusercontent.com/107647071/219909168-e7e126d8-972d-4e5d-95b2-c9cb4ad1b9d7.png">
 
+<img width="306" alt="Screenshot 2023-02-18 at 8 47 31 PM" src="https://user-images.githubusercontent.com/107647071/219909429-620b0001-d544-4ef4-9c97-79d66071e367.png">
+
+<img width="303" alt="Screenshot 2023-02-18 at 8 46 32 PM" src="https://user-images.githubusercontent.com/107647071/219909432-8667dad9-09c7-459b-81e8-d8452a7643c3.png">
+
+
+
+
 
 ## Version History
 * Compiled with libpng 1.6.37; using libpng 1.6.37
