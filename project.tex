@@ -35,11 +35,11 @@ Lydia Alem
 % - first create a contour map of each surface the paraboloid and the cone
 % Answer the questions:
     % - What are the similarities between these contour maps
-    The cone and paraboloid possess distinct shapes that differentiate them from one another. The cone (figure 2) tapers to a point in one direction, while the paraboloid expands indefinitely in two directions (figure 1).
+    The cone and paraboloid are two mathematical surfaces with distinct shapes that, at first glance, may appear to be similar. A cursory examination of both Figure 1 and Figure 2 reveals that both shapes exhibit an almost circular-like distribution. However, upon delving deeper into this project, I will demonstrate how significantly different these shapes are. 
     
     \begin{figure}[H]
     	\begin{centering}
-      		\includegraphics[width=5in]{newnew.jpeg}
+      		\includegraphics[width=5in]{nig.jpg}
       		% \caption{Contour map of both {$Z = \sqrt{x^2 + y^2}$} and $Z = x^2 + y^2$ 
         % }
     	\end{centering}
@@ -49,11 +49,11 @@ Lydia Alem
     
     % - Q: How are they different
 
-    Upon observing the contour maps of the cone and paraboloid, a notable disparity in their growth patterns is immediately discernible. Specifically, the paraboloid exhibits a rate of growth that could be described as approaching an exponential function, evidenced by the discrepancy in growth between $Z = 4$ and $Z = 3$ when compared to the difference in growth between $Z = 2$ and $Z = 3$. 
+    Upon observing the contour maps of the cone and paraboloid, a notable disparity in their growth patterns is immediately discernible. Specifically, the paraboloid exhibits a rate of growth that could be described as approaching an exponential function, evidenced by the discrepancy in growth between $z = 4$ and $z = 3$ when compared to the difference in growth between $z = 2$ and $z = 3$. 
     \\
     \\
     In contrast, the growth of the cone appears to be more uniform across its dimensions.
-    This observation could be attributed to the paraboloid's underlying quadratic equation, which imparts a degree of curvature and accentuates the rate of growth in the $Z$ direction. Such distinctions are critical to understanding the properties and applications of these shapes in various fields, including physics, engineering, and mathematics.
+    This observation could be attributed to the paraboloid's underlying quadratic equation, which imparts a degree of curvature and accentuates the rate of growth in the $z$ direction. Such distinctions are critical to understanding the properties and applications of these shapes in various fields, including physics, engineering, and mathematics.
      
 \section{Part 2: Directional Derivatives}\label{methods}
 % - Use the directional derivatives  to find the direction of greatest increase at this point on each surface, and also find the magnitude of the directional derivative in that direction. 
@@ -63,7 +63,7 @@ I began by calculating the directional derivatives and magnitude of both shapes:
 
 \subsection{Step 1}
 
-Find the Gradient Vector and Magnitude for $Z = x^2 + y^2 $:
+Find the Gradient Vector and Magnitude for $z = x^2 + y^2 $:
 
 $$\fbox{\textbf{Recall the Gradient Vector Formula: $\nabla f = \bigl \langle f_{x}, f_{y}, f_{z} \bigr \rangle = \frac{\partial f}{\partial x} \bold{i} + \frac{\partial f}{\partial y} \bold{j} + \frac{\partial f}{\partial z} \bold{k}$}}$$
 
@@ -93,7 +93,7 @@ $$\left\lVert \bigl \langle 2, 0, -1 \bigr\rangle \right\rVert = \sqrt{2^2 + 0^2
 
 \subsection{Step 2}
 
-Find the Gradient Vector and Magnitude for $Z =\sqrt{x^2 + y^2 }$:
+Find the Gradient Vector and Magnitude for $z =\sqrt{x^2 + y^2 }$:
 
 $$\fbox{\textbf{Recall the Gradient Vector Formula: $\nabla f = \bigl \langle f_{x}, f_{y}, f_{z} \bigr \rangle = \frac{\partial f}{\partial x} \bold{i} + \frac{\partial f}{\partial y} \bold{j} + \frac{\partial f}{\partial z} \bold{k}$}}$$
 
@@ -193,12 +193,58 @@ Plotting the surface and the tangent
 
 To provide a comprehensive understanding of the cone and paraboloid shapes, I decided to utilize the powerful visualization tool, GeoGebra 3D. This tool allows for an interactive 3D representation of the shapes, which provides a better insight into their structure and properties. 
 \\
-However, I still believe that it is important to understand the steps it would take to create an image without the use of software, and it can be seen down below:
 
 \subsection{Final Answer}
 Therefore, in our effort to derive the equation of the tangent plane to the surface $z=f(x,y)$ at the point $P(0,0,0)$, we have obtained $z=0$ as the equation of the tangent plane. This result indicates that the tangent line at the origin lies on the x-y plane. This finding can also be clearly observed in the accompanying graphs (figure 1 \& 2), where the point $P(0,0,0)$ is seen to be untouched by the surface.
 
-% \section*{Reflection}
 
+% The following code snippets were used to create the contour maps:
+
+% \begin{tikzpicture}
+%     \begin{axis}[view={0}{90},xlabel=$x$,ylabel=$y$,colormap/viridis]
+%         \addplot3[contour gnuplot={levels={0,1,2,3,4},labels={false}},thick] 
+%             {x^2 + y^2};
+%         \addlegendentry{Function}
+%         \addplot[colorbar, point meta min=0, point meta max=5] 
+%             coordinates{(4,0)};
+%         \addlegendentry{Value}
+%     \end{axis}
+% \end{tikzpicture}
+
+% \begin{figure}[h]
+%     \centering
+%     \begin{tikzpicture}
+%         \begin{axis}[view={0}{90},xlabel=$x$,ylabel=$y$,colormap/viridis]
+%             \addplot3[contour gnuplot={levels={0,1,2,3,4},labels={false}},thick] 
+%                 {sqrt(x^2 + y^2)};
+%             \addlegendentry{Function}
+%             \addplot[colorbar, point meta min=0, point meta max=5] 
+%                 coordinates{(4,0)};
+%             \addlegendentry{Value}
+%             \addplot[mark=*, mark size=3, only marks, color=red] 
+%                 coordinates{(1,0)} node [above left] {$(1,0)$};
+%         \end{axis}
+%     \end{tikzpicture}
+%     \caption{Contour plot of a $z = \sqrt{x^2 + y^2}$.}
+%     \label{fig:contour-plot}
+% \end{figure}
+
+% \begin{figure}[h]
+%     \centering
+%     \begin{tikzpicture}
+%         \begin{axis}[view={0}{90},xlabel=$x$,ylabel=$y$,colormap/viridis]
+%             \addplot3[contour gnuplot={levels={0,1,2,3,4},labels={false}},thick] 
+%                 {x^2 + y^2};
+%             \addlegendentry{Function}
+%             \addplot[colorbar, point meta min=0, point meta max=5] 
+%                 coordinates{(4,0)};
+%             \addlegendentry{Value}
+%             \addplot[mark=*, mark size=3, only marks, color=red] 
+%                 coordinates{(1,0)} node [above left] {$(1,0)$};
+%         \end{axis}
+%     \end{tikzpicture}
+%     \caption{Contour plot of a $z = x^2 + y^2$.}
+%     \label{fig:contour-plot}
+% \end{figure}
 \end{document}
 
