@@ -63,6 +63,7 @@ When creating the 3D graphs, these were the following packages that were utilize
 
 <img width="303" alt="Screenshot 2023-02-18 at 8 46 32 PM" src="https://user-images.githubusercontent.com/107647071/219909432-8667dad9-09c7-459b-81e8-d8452a7643c3.png">
 
+<img width="299" alt="Screenshot 2023-02-18 at 8 44 50 PM" src="https://user-images.githubusercontent.com/107647071/219909582-8aa046b9-1f76-4390-856e-a2b3c4592804.png">
 
 
 
