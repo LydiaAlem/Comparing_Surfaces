@@ -44,8 +44,7 @@ When creating the 3D graphs, these were the following packages that were utilize
 11. Upload the ZIP file to Overleaf.
 12. Overleaf will extract the contents of the ZIP file and create a project with the Applying Stokes repository.
 
----
-### Dependencies
+## Dependencies
 
 * Overleaf provides an amazing feature which allows for writing and compiling code simultaneously [Click here for information](https://www.latex-project.org/get/)
 
