@@ -14,6 +14,8 @@ point (0,0,0), which was essential for the subsequent stages of the analysis.
 <img src="https://github.com/LydiaAlem/Applying-Stokes-Theorem/assets/107647071/a55dcd53-66b1-4437-b64b-2fc759a02624" alt="overleaf Logo" width="155" height="50">
 <img src="https://github.com/LydiaAlem/Applying-Stokes-Theorem/assets/107647071/7586c7d7-2255-4bb6-9b6e-4cb0573b4c23" alt="LaTeX Logo" width="80" height="80">
 
+---
+
 When creating the 3D graphs, these were the following packages that were utilized: 
 ```tex
 \usepackage{pgfplots}
