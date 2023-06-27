@@ -1,8 +1,5 @@
 # Comparing 3D Surfaces
 
-This was a project I completed in my Multivariable Calculus (MATH 2263) Course!
-
----
 This research project was undertaken to conduct a thorough comparative analysis of two distinct 3D shapes, namely the paraboloid and the cone. 
 The primary aim of this study was to examine the similarities and differences between the two shapes and to understand their unique characteristics. 
 The project involved utilizing the powerful LaTeX typesetting system, specifically the Overleaf platform, to create highly detailed and 
