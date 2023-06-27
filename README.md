@@ -16,19 +16,6 @@ point (0,0,0), which was essential for the subsequent stages of the analysis.
 
 ## Getting Started
 
-When creating the 3D graphs, these were the following packages that were utilized: 
-```tex
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.16}
-\usepackage{graphicx}
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.17}
-\usepackage{amsmath}
-```
-
-
-## Getting Started
-
 1. Go to Overleaf and log in to your account.
 2. Create a new blank project or open an existing project where you want to pull the Applying Stokes repository.
 3. In your Overleaf project, navigate to the left sidebar and click on the "Git" button.
@@ -44,6 +31,18 @@ When creating the 3D graphs, these were the following packages that were utilize
 10. Locate the cloned folder on your local machine and compress it into a ZIP file.
 11. Upload the ZIP file to Overleaf.
 12. Overleaf will extract the contents of the ZIP file and create a project with the Applying Stokes repository.
+
+## Developing the 3D Graphs & Images:
+
+When creating the 3D graphs, these were the following packages that were utilized: 
+```tex
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+\usepackage{graphicx}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+\usepackage{amsmath}
+```
 
 ## Dependencies
 
